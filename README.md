@@ -12,9 +12,9 @@ number of iterations $I$ by,
 ```math
      I \approx \frac{\pi}{4} \sqrt{\frac{N}{M}}
 ```
-In the 5 vertex graph, we have $N$= 4x4x4x4x4 = 1024 states, and. $M$=4x3x2x1x3 = 72 states, which gives the optimal number of iterations = 3.
+In the 5 vertex graph, we have $N$ = 4x4x4x4x4 = 1024 states, and. $M$ = 4x3x2x1x3 = 72 states, which gives the optimal number of iterations = 3.
 
-We need atleast 4 colors for this graph. For each node, 2 qubits are assigned and after the computation, the results are further processed(specific details can be found as comments in the code) and the graph with corresponding node colors are drawn using the networkx python package for easy visualisation. The results are given below.
+We need atleast 4 colors for this graph. For each node, 2 qubits are assigned and after the computation, the results are further processed (specific details can be found as comments in the code) and the graph with corresponding node colors are drawn using the NetworkX python package for easy visualisation. The results are given below.
 
 Qiskit Ouput:
 

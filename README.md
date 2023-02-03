@@ -22,7 +22,9 @@ Qiskit Ouput:
 
 Corresponding colored graphs:
 
+0011100110
 ![rsz_0011100110 (1)](https://user-images.githubusercontent.com/70852403/216638330-edc998bc-5039-4e6e-a43b-d4f68fbec56d.png)
 
+1001110011
 ![rsz_1001110011](https://user-images.githubusercontent.com/70852403/216638522-5f1ece62-b189-4ff1-a52b-472c3dd21a7b.png)
 

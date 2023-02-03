@@ -15,4 +15,14 @@ number of iterations "I" by,
 In the 5 vertex graph, we have $N$= 4x4x4x4x4 = 1024 states, and. $M$=4x3x2x1x3 = 72 states, which gives the optimal number of iterations = 3.
 
 We need atleast 4 colors for this graph. For each node, 2 qubits are assigned and after the computation, the results are further processed(specific details can be found as comments in the code) and the graph with corresponding node colors are drawn using the networkx python package for easy visualisation. The results are given below.
- 
+
+Qiskit Ouput:
+
+![qis](https://user-images.githubusercontent.com/70852403/216637714-c757923a-4f36-43bf-bfa7-4d3182c2d0a7.png)
+
+Corresponding colored graphs:
+
+![rsz_0011100110 (1)](https://user-images.githubusercontent.com/70852403/216638330-edc998bc-5039-4e6e-a43b-d4f68fbec56d.png)
+
+![rsz_1001110011](https://user-images.githubusercontent.com/70852403/216638522-5f1ece62-b189-4ff1-a52b-472c3dd21a7b.png)
+

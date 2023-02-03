@@ -3,10 +3,12 @@
 Graph coloring problem or more precisely proper vertex coloring problem is defined as: Given a graph and a set of k labels, we have to assign labels to the vertices such that  vertices which are connected do not have the same label. This problem can be used to effectively model situations like scheduling problem, register allocation problem and so on.
 
 For graphs with only few vertices(nodes), estimating the minimum number of colors (labels) and assigning them is a fairly simple procedure. But for large number of nodes, the problem becomes much more difficult. The code in this repository corresponds to the solving the problem of allocating labels to the fully connected rectangle + an extra connected node(five vertices and seven edges), using Qiskit. 
+![plot](./graphs/general.png)
+
 
 Unlike classical algorithms, the Grover's search algorithm have an optimal iteration number at which the probability to correctly measure the 
 desired states is the highest. If there are $N$ possible solutions and out of them, if $M$ of them are solution states, we can approximate the
-number of iterations $"I"$ by,
+number of iterations "I" by,
 ```math
      I = \frac{\pi}{4} \sqrt{\frac{N}{M}}
 ```
